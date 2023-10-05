@@ -23,7 +23,7 @@ public:
 private:
 
 	Counter(int number_b) {
-		number = 1;
+		number_b = 1;
 	}
 
 

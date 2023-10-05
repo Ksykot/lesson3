@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{527cb674-a484-49d7-8e2a-e8fe91008a56}</ProjectGuid>
+    <ProjectGuid>{0f86e43e-b254-4c3e-a293-5583987ce88b}</ProjectGuid>
     <RootNamespace>Counter</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

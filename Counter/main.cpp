@@ -2,30 +2,34 @@
 
 class Counter {
 	int number;
+	int number_b;
+public:
+	Counter(int number) {
+		this->number = number;
+	}
+
+	Counter() {
+		int number;
+	}
+
+	void plus() {
+		number + 1;
+	}
+
+	void minus() {
+		number - 1;
+	}
+
 private:
 
-	Counter(int number) {
+	Counter(int number_b) {
 		number = 1;
 	}
 
-	Counter(int number) {
-		this -> number =  number;
-	}
 
-public:
 
-	Counter() {
-
-	}
-
-	double plus() {
-		return number + 1;
-	}
-
-	double minus() {
-		return number - 1;
-	 }
 };
+
 
 int main() {
 

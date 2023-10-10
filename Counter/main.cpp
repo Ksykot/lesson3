@@ -4,12 +4,12 @@ class Counter {
 	int number;
 	int number_b;
 public:
-	Counter(int number) {
-		this->number = number;
-	}
-
 	Counter() {
 		int number;
+	}
+
+	int get_number_b() {
+		return number_b;
 	}
 
 	void plus() {
@@ -22,7 +22,7 @@ public:
 
 private:
 
-	Counter(int number_b) {
+	 int Counter_b(int number_b) {
 		number_b = 1;
 	}
 
@@ -37,7 +37,7 @@ int main() {
 
 	char p = '+', m = '-', c = '=', e = 'x';
 	char answer, action;
-	int number;
+	int number = 0;
 
 	std::cout << "Вы хотите указать начальное значение счётчика? Введите да или нет: ";
 	std::cin >> answer;
